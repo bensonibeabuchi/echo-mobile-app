@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Echo",
-    "slug": "Echo",
+    "name": "Echo-News-App",
+    "slug": "echo-news-app",
     "description": "Echo is a news aggregator app where you can get all your news in one place",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "y"
+      "bundleIdentifier": "com.bensonibeabuchi.echonewsapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -40,8 +40,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "add0c487-22d1-46ff-84d3-dc471ff08a5a"
+        "projectId": "2031e12f-0b13-4e68-bfeb-2a1e307151e2"
       }
-    }
+    },
+    "owner": "bensonibeabuchi"
   }
 }
