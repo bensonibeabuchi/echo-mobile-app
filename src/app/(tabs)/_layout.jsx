@@ -7,11 +7,11 @@ export default function TabLayout() {
     <Tabs 
       initialRouteName='index'
       screenOptions={{ 
-        tabBarActiveTintColor: 'white',       // Active tab color
-        tabBarInactiveTintColor: '#4360BD',   // Inactive tab color
-        tabBarStyle: { backgroundColor: '#132B75' },  // Background color of the tab bar
-        headerStyle: { backgroundColor: '#dce4f6'},    // Header style
-        headerShown: false                     // Globally hide headers unless specified
+        tabBarActiveTintColor: 'white',       
+        tabBarInactiveTintColor: '#4360BD', 
+        tabBarStyle: { backgroundColor: '#132B75' }, 
+        headerStyle: { backgroundColor: '#dce4f6'},
+        headerShown: false
       }}
     >
       <Tabs.Screen
@@ -19,7 +19,7 @@ export default function TabLayout() {
         options={{
           title: 'Home',
           tabBarIcon: ({ color }) => (
-            <FontAwesome size={24} name="home" color={color} />  // Dynamic color
+            <FontAwesome size={24} name="home" color={color} />
           ),
         }}
       />
@@ -29,7 +29,7 @@ export default function TabLayout() {
         options={{
           title: 'Search',
           tabBarIcon: ({ color }) => (
-            <Feather name="search" size={24} color={color} />  // Dynamic color
+            <Feather name="search" size={24} color={color} />
           ),
         }}
       />
