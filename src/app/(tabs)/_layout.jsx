@@ -1,6 +1,7 @@
 import { Tabs } from 'expo-router'
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Feather } from '@expo/vector-icons';
+import Icon from 'react-native-remix-icon';
 
 export default function TabLayout() {
   return (
@@ -19,7 +20,7 @@ export default function TabLayout() {
         options={{
           title: 'Home',
           tabBarIcon: ({ color }) => (
-            <FontAwesome size={24} name="home" color={color} />
+            <Icon name="ri-home-fill" size="24" color={color}></Icon>
           ),
         }}
       />
@@ -29,7 +30,7 @@ export default function TabLayout() {
         options={{
           title: 'Search',
           tabBarIcon: ({ color }) => (
-            <Feather name="search" size={24} color={color} />
+            <Icon name="ri-search-fill" size="24" color={color}></Icon>
           ),
         }}
       />

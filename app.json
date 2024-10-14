@@ -1,12 +1,12 @@
 {
   "expo": {
     "name": "Echo-News-App",
-    "slug": "echo-news-app",
+    "slug": "echo",
     "description": "Echo is a news aggregator app where you can get all your news in one place",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
-    "scheme": "echo",
+    "scheme": "echo-news-app",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./src/assets/images/splash.png",
@@ -43,6 +43,12 @@
         "projectId": "2031e12f-0b13-4e68-bfeb-2a1e307151e2"
       }
     },
-    "owner": "bensonibeabuchi"
+    "owner": "bensonibeabuchi",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2031e12f-0b13-4e68-bfeb-2a1e307151e2"
+    }
   }
 }

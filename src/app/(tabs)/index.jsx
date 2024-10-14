@@ -7,6 +7,7 @@ import placeholder from '../../assets/images/default_image.jpg'
 import CategoriesCard from '../../components/CategoriesCard'
 import { categories } from '../../constants'
 import CountryDropdown from '../../components/CountryDropdown';
+import Icon from 'react-native-remix-icon';
 
 
 
@@ -143,6 +144,7 @@ export default function index() {
           {/* <SearchBar/> */}
           <View className="p-2 w-full rounded-2xl border border-[#0F2058] flex-row items-center justify-between">
             <Feather name="search" size={24} color="#0F2058" />
+            <Icon name="ri-search-line" size="24" color="#0F2058"></Icon>
             <TextInput
             placeholder='Search'
             onPress={() => router.push('search')}

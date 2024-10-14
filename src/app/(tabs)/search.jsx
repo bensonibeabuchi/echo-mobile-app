@@ -1,6 +1,6 @@
 import { View, Text, TextInput, StatusBar, RefreshControl, FlatList, TouchableOpacity, Image, ActivityIndicator, Platform, SafeAreaView } from 'react-native'
 import React, { useEffect, useState, useRef } from 'react'
-import { Feather } from '@expo/vector-icons';
+import Icon from 'react-native-remix-icon';
 import axios from 'axios';
 import placeholder from '../../assets/images/default_image.jpg'
 import { useRouter } from 'expo-router';
@@ -98,7 +98,7 @@ export default function SearchBar() {
      <View className="px-5">
       <View className="p-4">
         <View className="p-2 w-full rounded-2xl border border-[#0F2058] flex-row items-center justify-between">
-            <Feather name="search" size={24} color="#0F2058" />
+            <Icon name="ri-search-line" size="24" color="#0F2058"></Icon>
             <TextInput
             ref={inputRef}
             value={query}
@@ -106,7 +106,7 @@ export default function SearchBar() {
             placeholder='Search for news'
             placeholderTextColor="#9EA0A4"
             clearButtonMode='always'
-            className="w-11/12 h-full py-3 text-left text-black"
+            className="w-11/12 h-full py-3 px-2 text-left text-black"
             />
         </View>
       </View>

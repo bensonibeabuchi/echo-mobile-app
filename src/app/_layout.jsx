@@ -20,6 +20,7 @@ export default function RootLayout() {
           
           <Stack.Screen name="pages/NewsDetails" options={{
             headerTitle: 'NewsDetails',
+            presentation: 'modal'
               }} />
               
           <Stack.Screen name="pages/Privacy" options={{
